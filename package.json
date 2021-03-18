@@ -6,7 +6,7 @@
   "scripts": {
     "cypress:run:mobile":"npx cypress run --config viewportWidth=411,viewoportHeight=823",
     "cypress:run": "npx cypress run",
-    "cypress:run:dash": "npx cypress run --record --key cb8cd87b-0357-4128-ad2f-4fbe7ff35180"
+    "cypress:run:dash": "npx cypress run --record"
   },
   "keywords": [],
   "author": "",
