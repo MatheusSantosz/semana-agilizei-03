@@ -1,3 +1,12 @@
 {
-  "projectId": "npokdx"
+  "extends":"./base.jason",
+  "$schema":  "https://on.cypress.io/cypress.schema.json",
+  "baseUrl": "https://devfinance-agilizei.netlify.app",
+  "env":{
+    "user": "matheus-cypress"  
+  },
+      "projectId": "npokdx",
+      "experimentalSourceRewriting": true,
+      "experimentalStudio": true
+
 }
